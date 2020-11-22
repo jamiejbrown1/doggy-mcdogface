@@ -1,8 +1,10 @@
 # Doggy McDogface
 
-Simple Dog breed explorer built using React and Typescript
+Simple Dog breed explorer exposing data from the open source [DogApi](https://dog.ceo/dog-api/)
 
-Configured with:
+Built with:
+- React
+- Typescript
 - Webpack
 - ESLint
 - Prettier
