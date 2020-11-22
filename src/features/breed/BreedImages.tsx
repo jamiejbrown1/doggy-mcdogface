@@ -5,7 +5,6 @@ import { createUseStyles } from 'react-jss';
 import { CustomTheme } from '../../theme';
 import Skeleton from 'react-loading-skeleton';
 import { v4 as uuid } from 'uuid';
-import { Simulate } from 'react-dom/test-utils';
 
 const useStyles = createUseStyles<CustomTheme>((theme) => ({
     root: {
