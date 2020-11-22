@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "removeComments": true,
+    "jsx": "react",
+    "allowJs": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "paths": {
+      "components/*": [
+        "src/components/*"
+      ]
+    },
+    "types": ["jest", "node", "@types/testing-library__jest-dom"]
+  },
+  "include": [
+    "./src",
+    "./webpack.config.ts",
+    "./jest.config.ts"
+  ],
+  "typeRoots": [
+    "./node_modules/@types",
+    "./src/types"
+  ]
+}
